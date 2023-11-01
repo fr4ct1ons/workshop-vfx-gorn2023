@@ -356,131 +356,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
---- !u!1 &605055488
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 605055491}
-  - component: {fileID: 605055490}
-  - component: {fileID: 605055489}
-  m_Layer: 0
-  m_Name: VFX_Portal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!73398921 &605055489
-VFXRenderer:
-  serializedVersion: 1
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605055488}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!2083052967 &605055490
-VisualEffect:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605055488}
-  m_Enabled: 1
-  m_Asset: {fileID: 0}
-  m_InitialEventName: OnPlay
-  m_InitialEventNameOverriden: 0
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
-  m_ResourceVersion: 1
-  m_PropertySheet:
-    m_Float:
-      m_Array:
-      - m_Value: 0.95
-        m_Name: PositionTorus_torus_majorRadius
-        m_Overridden: 1
-      - m_Value: 0.05
-        m_Name: PositionTorus_torus_minorRadius
-        m_Overridden: 1
-    m_Vector2f:
-      m_Array: []
-    m_Vector3f:
-      m_Array:
-      - m_Value: {x: 0, y: 1, z: 0}
-        m_Name: PositionTorus_torus_transform_position
-        m_Overridden: 1
-      - m_Value: {x: 1, y: 1, z: 1}
-        m_Name: PositionTorus_torus_transform_scale
-        m_Overridden: 1
-    m_Vector4f:
-      m_Array:
-      - m_Value: {x: 31.999996, y: 6.7584, z: 0.44799992, w: 1}
-        m_Name: SparkColor
-        m_Overridden: 1
-    m_Uint:
-      m_Array: []
-    m_Int:
-      m_Array: []
-    m_Matrix4x4f:
-      m_Array: []
-    m_AnimationCurve:
-      m_Array: []
-    m_Gradient:
-      m_Array: []
-    m_NamedObject:
-      m_Array: []
-    m_Bool:
-      m_Array: []
---- !u!4 &605055491
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605055488}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2705895, y: 0, z: 0.13076305}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &811096948
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,12 +534,12 @@ GameObject:
   - component: {fileID: 1400880120}
   - component: {fileID: 1400880119}
   m_Layer: 0
-  m_Name: VFX_Ice
+  m_Name: VFX_Ice_Original
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!73398921 &1400880119
 VFXRenderer:
   serializedVersion: 1
@@ -673,7 +548,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400880118}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -728,13 +603,13 @@ VisualEffect:
       - m_Value: 6.28
         m_Name: Sparks Origin_arc
         m_Overridden: 1
-      - m_Value: 0.536
+      - m_Value: 0.423
         m_Name: SmokeDesaturation
         m_Overridden: 1
       - m_Value: 6.28
         m_Name: Smoke Origin_arc
         m_Overridden: 1
-      - m_Value: 0.55
+      - m_Value: 0.2
         m_Name: Smoke Origin_sphere_radius
         m_Overridden: 1
       - m_Value: 1
@@ -757,6 +632,9 @@ VisualEffect:
         m_Overridden: 1
       - m_Value: 0.4
         m_Name: FragmentsSphere_sphere_radius
+        m_Overridden: 1
+      - m_Value: 1.5
+        m_Name: EnergyGather_sphere_radius
         m_Overridden: 1
     m_Vector2f:
       m_Array: []
@@ -788,6 +666,9 @@ VisualEffect:
         m_Overridden: 1
       - m_Value: {x: 0, y: 0.3, z: 0}
         m_Name: FragmentsSphere_sphere_transform_position
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0.5, z: 0}
+        m_Name: EnergyGather_sphere_transform_position
         m_Overridden: 1
     m_Vector4f:
       m_Array:
